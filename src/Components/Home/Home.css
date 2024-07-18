@@ -150,7 +150,8 @@ img[alt="motivationalImage"]
     
 .GalleryColumn img
 {
-    width: 350px;
+    width: 340px;
+    margin-left:10px;
 }
 
     
