@@ -1,0 +1,15 @@
+.SubmitButtonDiv button
+{
+    height: 60px;
+    padding: 10px;
+}
+
+.SubmitButtonDiv button:focus {
+    background: white ;
+    color: black ;
+}
+
+textarea{
+    padding: 10px;
+    font-size: 16px;
+}

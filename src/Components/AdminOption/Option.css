@@ -1,0 +1,43 @@
+.adminOptionDiv
+{
+    height: 60px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #000000ea;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.4s; /* Add transition to smoothly change colors */
+}
+
+.adminOptionDiv:hover
+{
+    transition-duration: 0.5s;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.adminOptionDiv:hover p
+{
+    color: black;
+}
+
+.adminOptionDiv.adminOptionActive
+{
+    background-color: white; /* Same Dark Blue as hover */
+    color: white;
+    border: 1px solid black;
+}
+
+
+.adminOptionDiv.adminOptionActive p
+{
+    color: black;
+}
+
+.adminOptionDiv p
+{
+    color: white;
+}

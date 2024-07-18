@@ -1,0 +1,157 @@
+p
+{
+    color: black;
+}
+
+
+
+
+
+.GalleryColumn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.GalleryColumn img
+{
+    width: 450px;
+    /* position: static;
+    z-index: -1; */
+    border-radius: 5px;
+}
+
+
+.GalleryColumn img:hover
+{
+    transform: scale(1.040);
+    transition-duration: 0.6s;    
+}
+
+
+.para
+{
+    margin: 20px 30px;
+    background: #000000ea;
+    
+    padding: 30px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.para p{
+    color: white;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.frontPageDiv
+{
+    height: 105vh;
+}
+
+.secfrontPageDiv
+{
+    height: auto;
+    margin-top: 40px;
+}
+.secfrontPageDiv h1
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+.thirdPageFlex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+
+
+.thumbNailone
+{
+    height: 100px;
+}
+
+.thumbNailone img
+{
+    width: 450px;
+    position: relative;
+    top: -80px;
+}
+
+.thumbnailtwo
+{
+    width: 150px;
+}
+
+img[alt="motivationalImage"]
+{
+     width: 1550px;
+     margin: 30px 0px;   
+}
+
+
+/* MEDIA QUERY FOR THE MOBILE DEVICE  */
+
+@media (max-width: 600px) {
+
+    
+.secfrontPageDiv
+{
+    margin-top: 20px;
+}
+.secfrontPageDiv h1
+{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+
+.thirdPageFlex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 80px 0px;
+}
+
+.thirdPageFlex  h1
+{
+    font-size: 30px;
+}
+
+
+.thumbNailone
+{
+    height: 50px;
+}
+
+.thumbNailone img
+{
+    width: 300px;
+    position: relative;
+    top: -70px;
+}
+
+.thumbnailtwo
+{
+    width: 100px;
+}
+
+    
+.GalleryColumn img
+{
+    width: 320px;
+}
+
+    
+}

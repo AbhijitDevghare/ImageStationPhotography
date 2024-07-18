@@ -1,0 +1,98 @@
+#secondFrontPageWrapper
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 40px;
+    /* border: 5px solid black; */
+    flex-wrap: wrap;
+}
+
+#secondfrontPageImageWrapper
+{
+    width: 500px;
+    align-self: center;
+    height:  550px;
+    overflow: hidden;
+}
+
+#secondFrontPageWrapper img
+{
+    max-width: 420px;
+    object-fit: contain;
+    position: relative;
+    top: -60px;
+}
+
+#secondFrontPageWrapper div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 600px;
+    
+}
+
+
+#secondFrontPageWrapper div:nth-child(2) h2
+{
+    font-size: 32px;
+    line-height: 40px;
+    
+}
+
+#secondFrontPageWrapper div:nth-child(2) h3
+{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    #secondFrontPageWrapper
+{
+    gap: 10px;
+    padding: 10px;
+}
+    
+    #secondfrontPageImageWrapper
+    {
+        width: auto;
+        height:  auto;
+    }
+    
+    #secondFrontPageWrapper img
+    {
+        max-width: 410px;
+        object-fit: contain;
+        position: relative;
+        right:40px;
+    }
+    
+    #secondFrontPageWrapper div:nth-child(2)
+    {     
+        gap: 20px;
+        width: auto;  
+    }
+    
+    
+    #secondFrontPageWrapper div:nth-child(2) h2
+    {
+        font-size: 25px;
+        line-height: 35px;
+        
+    }
+    
+    #secondFrontPageWrapper div:nth-child(2) h3
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+}

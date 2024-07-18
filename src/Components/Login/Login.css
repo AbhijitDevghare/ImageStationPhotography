@@ -1,0 +1,109 @@
+.centerFlex
+{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.reg-loginFlex
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 520px;
+    padding:  40px 20px 20px 20px;
+    gap: 5px;
+    margin:100px 0px;
+    font-size: 18px;
+    border-radius: 8px  ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.reg-loginFlex h2
+{
+    font-size: 30px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.reg-loginFlex div
+{
+    height: 50px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+.reg-loginFlex div label
+{
+    width: 120px;
+}
+
+
+.reg-loginFlex div input
+{
+    height: 50px;
+    width: 320px;
+    padding: 20px;
+    font-size: 16px;
+
+}
+
+.reg-loginFlex button
+{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.reg-loginFlex button:hover
+{
+    background: white;
+    color: black; 
+}
+
+
+/* Add :focus to see if it works when the button is focused */
+.reg-loginFlex button:focus {
+    background: white ;
+    color: black ;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .reg-loginFlex
+    {
+        width: 340px;
+        margin: 100px 10px;
+    }
+    
+    
+    
+    .reg-loginFlex div label
+    {
+        width: 100px;
+    }
+    
+    
+    .reg-loginFlex div input
+    {
+        height: 50px;
+        width: 200px;
+        padding: 10px;
+    
+    }
+    
+}

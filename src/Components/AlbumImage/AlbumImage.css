@@ -1,0 +1,11 @@
+.albumDiv img
+{
+    width: 1200px;
+}
+
+@media (max-width: 600px) {
+    .albumDiv img
+    {
+        width: 320px;
+    }
+}

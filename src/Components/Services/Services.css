@@ -1,0 +1,19 @@
+.thumbnailClass
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail img
+{
+    width: 200px;
+}
+
+
+.h1Center
+{
+    text-align: center;
+    font-size: 30px ;
+}   

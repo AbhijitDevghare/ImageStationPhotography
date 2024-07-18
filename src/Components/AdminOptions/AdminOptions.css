@@ -1,0 +1,66 @@
+.adminOptionsFirstFlexDiv
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+
+.adminOptionsClass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;        
+    width: 600px;
+    padding: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.adminOptionsDivActive {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 50px;
+}
+
+.loadingButton {
+    background-color: white;
+    color: black;
+}
+
+
+/* ------------MEDIA QUERY---------- */
+
+@media (max-width: 600px) {
+
+    .adminOptionsFirstFlexDiv
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+    .adminOptionsClass {
+     
+        width: 340px;
+        margin: 10px;
+        padding: 50px;
+    }
+    
+    .adminOptionsDivActive {
+        margin: 20px 10px;
+        padding: 30px;
+    }
+}

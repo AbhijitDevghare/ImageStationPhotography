@@ -1,0 +1,30 @@
+/* Gallery.css */
+#galleryPageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #000;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    top: 10px;      
+}   
+
+#galleryPageHeader div  {
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+}
+
+#galleryPageHeader div  p
+{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#galleryPageHeader div p.selectedTab {
+    text-decoration: underline;    
+
+}

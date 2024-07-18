@@ -1,0 +1,111 @@
+/* Styles for screens wider than 600px */
+.deleteOption {
+    width: 98%;
+    height: 60px;
+    background: rgba(75, 74, 74, 0.336);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteOption .logo {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.deleteOption .logo:hover {
+    background: white;
+}
+
+.deleteOption button {
+    background: none;
+    height: 100%;
+}
+
+.deleteOption button:first-child {
+    justify-self: flex-start;
+}
+
+.deleteBoxMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    /* background: rgba(0, 0, 0, 0.735); */
+    z-index: 1;
+}
+
+.deleteBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.902);
+    height: 180px;
+    width: 400px;
+    padding: 50px;
+    position: fixed;
+    top: 250px;
+    border-radius: 5px;
+    left: 570px;
+}
+
+.deleteBox button {
+    border: 1px solid transparent;
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+.deleteBox button:first-child {
+    background: #ff0000;
+    height: 60px;
+    border: 1px solid transparent;
+}
+
+.deleteBox button:hover {
+    border: 2px solid white;
+}
+
+.deleteBox button:nth-child(2) {
+    height: 40px;
+    background: rgb(9, 187, 9);
+}
+
+.deleteBox p {
+    color: white;
+    font-size: 20px;
+}
+
+/* Media query for screens up to 600px wide */
+@media (max-width: 600px) {
+    .deleteOption {
+        width: 98%;
+        height: 50px; /* Adjust height for smaller screens */
+    }
+
+    .deleteOption .logo {
+        padding: 8px; /* Adjust padding for smaller icons */
+    }
+
+    .deleteBoxMain {
+        align-items: flex-start; /* Adjust alignment for smaller screens */
+    }
+
+    .deleteBox {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+        top: 50px; /* Adjust top position for smaller screens */
+        left: 5%; /* Adjust left position for smaller screens */
+    }
+
+    .deleteBox button:first-child {
+        height: 50px; /* Adjust height for smaller screens */
+    }
+
+    .deleteBox p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
